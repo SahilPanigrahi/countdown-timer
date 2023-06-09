@@ -95,3 +95,13 @@
     -webkit-appearance: none;
     margin: 0;
   }
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 350px;
+  }
+
+  .container__labels--label {
+    font-size: 25px;
+  }
+}
